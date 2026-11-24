@@ -1,0 +1,69 @@
+body {
+    background-color: #5988FF;
+}
+
+h1{
+    text-align: center;
+    font-family: Inter, sans-serif;
+    color: #FFFFFF;
+    transition: transform 0.3s ease;
+}
+h1:hover {
+  animation: color-change 5s infinite;
+    transform: scale(1.012);
+}
+
+@keyframes color-change {
+  0%   { color: #FFFFFF; }
+  25%  { color: #FD98FB; }
+  75% { color: #D6FF6B; }
+    100%   { color: #FFFFFF; }
+}
+.texto1{
+    font-family: Inter, sans-serif;
+    color: #FFFFFF;
+}
+
+.texto2 {
+    font-family: Inter, sans-serif;
+    color: #FFFFFF;
+}
+.texto3 {
+    font-family: Inter, sans-serif;
+    color: #FD98FB;
+
+}
+
+.kodland-logo {
+    position: absolute;
+    top: -10px;
+    left: 1100px;
+}
+
+.meu-botão {
+    background-color: #FD98FB;
+    font-family: Inter, sans-serif;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.meu-botão:hover{
+    color: white;
+    transform: scale(1.05);
+}
+
+ul {
+    font-family: Inter, sans-serif;
+    color: #FFFFFF;
+}
+
+.algo {
+    font-family: Inter, sans-serif;
+    color: #FFFFFF;
+}
